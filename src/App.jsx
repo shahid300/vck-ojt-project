@@ -9,6 +9,8 @@ import Contact from './pages/Contact';
 import Navbar from './components/Header/Navbar1';
 import Footer1 from './components/Footer/Footer1';
 import AdmissionsPage from './pages/Admissions';
+import ChatbotComponent from './components/Chatbot/Chatbotcomponent';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/admissions" element={<AdmissionsPage />} />
       </Routes>
+      <ChatbotComponent/>
       <Footer1/>
     </Router>
   );

@@ -1,17 +1,20 @@
 import React from 'react';
 import Chatbot from '../components/Chatbot';
 import { Link } from 'react-router-dom';
+import Video1 from '../assets/College-tour.mp4'
 import './Courses.css'
 const Courses = () => {
   return (
     <div className="content">
-      <div style={{marginTop:'100px'}} className="page-container">
-        <h1 style={{textAlign:'center',color:'#007bff'}} className='animate-fade-in-up'>Our Academic Programs</h1>
+      <div style={{ marginTop: '100px' }} className="page-container">
+        <h1 style={{ textAlign: 'center', color: '#007bff' }} className='animate-fade-in-up'>Our Academic Programs</h1>
+        video
         <p>
           Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs
           designed to equip students with the knowledge and skills demanded by today's dynamic global
           landscape. Our curriculum is regularly updated to reflect industry trends and academic
           advancements.
+
         </p>
 
         <h2>Discover Campus Life</h2>
@@ -23,7 +26,7 @@ const Courses = () => {
             className="course-video"
           >
             <source
-              src="/assets/college-tour-FAmcnyfF.mp4"
+              src="src\assets\College-tour.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -118,7 +121,7 @@ const Courses = () => {
           </Link>
         </div>
       </div>
-      <Chatbot/>
+      <Chatbot />
     </div>
   );
 };
