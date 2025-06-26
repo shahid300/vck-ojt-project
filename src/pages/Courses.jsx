@@ -26,7 +26,7 @@ const Courses = () => {
             className="course-video"
           >
             <source
-              src="src\assets\College-tour.mp4"
+              src="/videos/College-tour.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.

@@ -38,7 +38,7 @@ const About = () => (
       <h2>Our History</h2>
       <p>
         Our journey began with a vision to make quality education available to all, and we continue
-        that legacy today. Over the years, we’ve achieved key milestones, expanded programs, and
+        that legacy today. Over the years, we've achieved key milestones, expanded programs, and
         proudly nurtured generations of successful alumni.
       </p>
     </div>
